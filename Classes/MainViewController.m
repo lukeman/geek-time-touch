@@ -10,13 +10,13 @@
 
 - (void)viewDidLoad {
     [titleLabel setText:@"Geek Time"];
-    [titleLabel setFont:[UIFont boldSystemFontOfSize:36]];
+    [titleLabel setFont:[UIFont systemFontOfSize:36]];
     
-    [geekTimeClock setFont:[UIFont fontWithName:@"Courier" size:52]];
+    [geekTimeClock setFont:[UIFont fontWithName:@"Courier" size:72]];
     
     [NSTimer scheduledTimerWithTimeInterval:1.0/15 target:self selector:@selector(timerFireMethod:) userInfo:nil repeats:YES];
     
-	[super viewDidLoad];
+    [super viewDidLoad];
 }
 
 - (void)timerFireMethod:(NSTimer *)aTimer {
@@ -70,16 +70,14 @@
 }
 
 
-/*
-// Override to allow orientations other than the default portrait orientation.
+
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-	// Return YES for supported orientations.
-	return (interfaceOrientation == UIInterfaceOrientationPortrait);
+ // Return YES for supported orientations.
+	return YES;
 }
-*/
 
 - (void)dealloc {
-
+    
     [super dealloc];
 }
 
