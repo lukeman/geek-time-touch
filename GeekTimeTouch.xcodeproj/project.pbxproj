@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A315F95B120F2305003BC06D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A315F95A120F2305003BC06D /* UIKit.framework */; };
+		A315F95D120F2305003BC06D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A315F95C120F2305003BC06D /* Foundation.framework */; };
+		A315F95F120F2305003BC06D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A315F95E120F2305003BC06D /* CoreGraphics.framework */; };
+		A315F964120F2305003BC06D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A315F962120F2305003BC06D /* InfoPlist.strings */; };
+		A315F966120F2305003BC06D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A315F965120F2305003BC06D /* main.m */; };
+		A315F969120F2305003BC06D /* GeekTimeTouchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A315F968120F2305003BC06D /* GeekTimeTouchAppDelegate.m */; };
+		A315F96C120F2305003BC06D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A315F96A120F2305003BC06D /* MainWindow.xib */; };
+		A315F96F120F2305003BC06D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A315F96E120F2305003BC06D /* MainViewController.m */; };
+		A315F971120F2305003BC06D /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A315F970120F2305003BC06D /* MainView.xib */; };
+		A315F974120F2305003BC06D /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A315F973120F2305003BC06D /* FlipsideViewController.m */; };
+		A315F976120F2305003BC06D /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A315F975120F2305003BC06D /* FlipsideView.xib */; };
+		A315F98A120F2A3C003BC06D /* flipside.html in Resources */ = {isa = PBXBuildFile; fileRef = A315F989120F2A3C003BC06D /* flipside.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A315F957120F2305003BC06D /* GeekTimeTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeekTimeTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A315F95A120F2305003BC06D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A315F95C120F2305003BC06D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A315F95E120F2305003BC06D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A315F960120F2305003BC06D /* GeekTimeTouch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeekTimeTouch-Info.plist"; sourceTree = "<group>"; };
+		A315F961120F2305003BC06D /* GeekTimeTouch_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeekTimeTouch_Prefix.pch; sourceTree = "<group>"; };
+		A315F963120F2305003BC06D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A315F965120F2305003BC06D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A315F967120F2305003BC06D /* GeekTimeTouchAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeekTimeTouchAppDelegate.h; sourceTree = "<group>"; };
+		A315F968120F2305003BC06D /* GeekTimeTouchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeekTimeTouchAppDelegate.m; sourceTree = "<group>"; };
+		A315F96B120F2305003BC06D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A315F96D120F2305003BC06D /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A315F96E120F2305003BC06D /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A315F970120F2305003BC06D /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		A315F972120F2305003BC06D /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		A315F973120F2305003BC06D /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		A315F975120F2305003BC06D /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+		A315F989120F2A3C003BC06D /* flipside.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = flipside.html; path = StaticFiles/flipside.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A315F954120F2305003BC06D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A315F95B120F2305003BC06D /* UIKit.framework in Frameworks */,
+				A315F95D120F2305003BC06D /* Foundation.framework in Frameworks */,
+				A315F95F120F2305003BC06D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A315F948120F2304003BC06D = {
+			isa = PBXGroup;
+			children = (
+				A315F94F120F2304003BC06D /* Classes */,
+				A315F950120F2305003BC06D /* Other Sources */,
+				A315F951120F2305003BC06D /* Resources */,
+				A315F952120F2305003BC06D /* Frameworks */,
+				A315F958120F2305003BC06D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A315F94F120F2304003BC06D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A315F967120F2305003BC06D /* GeekTimeTouchAppDelegate.h */,
+				A315F968120F2305003BC06D /* GeekTimeTouchAppDelegate.m */,
+				A315F96D120F2305003BC06D /* MainViewController.h */,
+				A315F96E120F2305003BC06D /* MainViewController.m */,
+				A315F972120F2305003BC06D /* FlipsideViewController.h */,
+				A315F973120F2305003BC06D /* FlipsideViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A315F950120F2305003BC06D /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A315F961120F2305003BC06D /* GeekTimeTouch_Prefix.pch */,
+				A315F965120F2305003BC06D /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		A315F951120F2305003BC06D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A315F989120F2A3C003BC06D /* flipside.html */,
+				A315F960120F2305003BC06D /* GeekTimeTouch-Info.plist */,
+				A315F962120F2305003BC06D /* InfoPlist.strings */,
+				A315F96A120F2305003BC06D /* MainWindow.xib */,
+				A315F970120F2305003BC06D /* MainView.xib */,
+				A315F975120F2305003BC06D /* FlipsideView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A315F952120F2305003BC06D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A315F95A120F2305003BC06D /* UIKit.framework */,
+				A315F95C120F2305003BC06D /* Foundation.framework */,
+				A315F95E120F2305003BC06D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A315F958120F2305003BC06D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A315F957120F2305003BC06D /* GeekTimeTouch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A315F956120F2305003BC06D /* GeekTimeTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A315F979120F2305003BC06D /* Build configuration list for PBXNativeTarget "GeekTimeTouch" */;
+			buildPhases = (
+				A315F953120F2305003BC06D /* Sources */,
+				A315F954120F2305003BC06D /* Frameworks */,
+				A315F955120F2305003BC06D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeekTimeTouch;
+			productName = GeekTimeTouch;
+			productReference = A315F957120F2305003BC06D /* GeekTimeTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A315F94A120F2304003BC06D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Centre College";
+			};
+			buildConfigurationList = A315F94D120F2304003BC06D /* Build configuration list for PBXProject "GeekTimeTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A315F948120F2304003BC06D;
+			productRefGroup = A315F958120F2305003BC06D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A315F956120F2305003BC06D /* GeekTimeTouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A315F955120F2305003BC06D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A315F964120F2305003BC06D /* InfoPlist.strings in Resources */,
+				A315F96C120F2305003BC06D /* MainWindow.xib in Resources */,
+				A315F971120F2305003BC06D /* MainView.xib in Resources */,
+				A315F976120F2305003BC06D /* FlipsideView.xib in Resources */,
+				A315F98A120F2A3C003BC06D /* flipside.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A315F953120F2305003BC06D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A315F966120F2305003BC06D /* main.m in Sources */,
+				A315F969120F2305003BC06D /* GeekTimeTouchAppDelegate.m in Sources */,
+				A315F96F120F2305003BC06D /* MainViewController.m in Sources */,
+				A315F974120F2305003BC06D /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A315F962120F2305003BC06D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A315F963120F2305003BC06D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A315F96A120F2305003BC06D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A315F96B120F2305003BC06D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A315F977120F2305003BC06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		A315F978120F2305003BC06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+			};
+			name = Release;
+		};
+		A315F97A120F2305003BC06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GeekTimeTouch_Prefix.pch;
+				INFOPLIST_FILE = "GeekTimeTouch-Info.plist";
+				PRODUCT_NAME = GeekTimeTouch;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A315F97B120F2305003BC06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GeekTimeTouch_Prefix.pch;
+				INFOPLIST_FILE = "GeekTimeTouch-Info.plist";
+				PRODUCT_NAME = GeekTimeTouch;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A315F94D120F2304003BC06D /* Build configuration list for PBXProject "GeekTimeTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A315F977120F2305003BC06D /* Debug */,
+				A315F978120F2305003BC06D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A315F979120F2305003BC06D /* Build configuration list for PBXNativeTarget "GeekTimeTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A315F97A120F2305003BC06D /* Debug */,
+				A315F97B120F2305003BC06D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A315F94A120F2304003BC06D /* Project object */;
+}

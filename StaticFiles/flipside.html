@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+	<title>GeekTime</title>
+	<style type="text/css" media="screen">
+	  body {
+		font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        letter-spacing: 1pt;
+        text-align: left;
+        color: #335;
+        background: #FAFAFA;
+	  }
+      .faq h2 {
+        font-size: 12pt;
+        margin: 0;
+      }
+      .faq p {
+        font-size: 10pt;
+        margin: 0.5em 0 1em;
+        line-height: 1.2em;
+      }
+	</style>
+</head>
+<body>
+	<div class="faq">
+	      <h2>What is Geek Time?</h2>
+	      <p>There are 86,400 seconds in a day. The closest power of two is 65,536. Instead of using seconds, <b>Geek Time</b> divides the day into 65,536 units and 
+	        then displays those units, relative to coordinated universal time (UTC), in hexadecimal.</p>
+	      <p>The day is just the 0-indexed day of the year in hexadecimal (at UTC).</p>
+	      <p>The glyph underneath is (assuming your browser supports it) an example of the Unicode character at the code point corresponding to the current Geek Time.
+	          The idea to include this was suggested by <a href="http://twitter.com/joshourisman">@joshourisman</a>.</p>
+	      <h2>What use is it?</h2>
+	      <p>It's a single time people can use to coordinate events on the Internet. If you round to the nearest <tt>0x100</tt> you'll be within six minutes.</p>
+	      <h2>Didn't Swatch do something like this?</h2>
+	      <p>Yeah, but they divided the day into 1,000. That's just not geeky enough!</p>
+	      <h2>Are you serious?</h2>
+	      <p>No, this was just done for fun. But hey, some people are already finding it useful. And wouldn't you rather have something geeky at this domain rather than some squatter? :-)</p>
+	      <h2>Is this based on some time server?</h2>
+	      <p>Not yet. Currently it's based on the local time of your computer, but we'd like to synchronize with a more reliable source.</p>
+	      <h2>Can you add a converter?</h2>
+	      <p>We've just added a converter from <b>Geek Time</b> to a variety of timezones. We're working on a converter from date/time/timezone to <b>Geek Time</b>.</p>
+	</div>
+</body>
+</html>
+
+
+
+
