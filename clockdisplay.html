@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>Geek Time</title>
+    <style>
+      body {
+        font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        text-align: center;
+        color: #335;
+        background: #FAFAFA;
+      }
+      a#geektime {
+        text-decoration:none;
+        color: #335;
+      }
+      #geektime {
+        font-family: monospace;
+        font-size: 48pt;
+      }
+      #geekdate {
+        font-family: monospace;
+        font-size: 24pt;
+        font-weight: 400;
+      }
+      #geekchar {
+        font-family: "Lucida Grande", "Lucida Sans Unicode";
+        font-size: 48pt;
+        line-height: 72pt;
+      }
+      .minor {
+        color: #669;
+      }
+      b {
+          font-weight: 900;
+      }
+    </style>
+  </head>
+  <body>
+    <div>The <b>Geek Time</b> is currently</div>
+    <a href="" id="geektime">%@</a>
+    <div>on day <span id="geekdate">%@</span></div>
+    <div id="geekchar">%@</div>
+  </body>
+</html>

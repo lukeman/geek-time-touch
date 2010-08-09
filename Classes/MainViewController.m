@@ -9,17 +9,20 @@
 @implementation MainViewController
 
 - (void)viewDidLoad {
+
     [titleLabel setText:@"Geek Time"];
     [titleLabel setFont:[UIFont systemFontOfSize:36]];
+	
+	// Load from clockdisplay.html for our clock display template
+	NSString *path = [[NSBundle mainBundle] pathForResource:@"clockdisplay" ofType:@"html"];  
+	clockDisplay = [[NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil] retain];
     
-    [geekTimeClock setFont:[UIFont fontWithName:@"Courier" size:72]];
-    
-    [NSTimer scheduledTimerWithTimeInterval:1.0/15 target:self selector:@selector(timerFireMethod:) userInfo:nil repeats:YES];
-    
+    [NSTimer scheduledTimerWithTimeInterval:1.0/5 target:self selector:@selector(updateClock:) userInfo:nil repeats:YES];
+
     [super viewDidLoad];
 }
 
-- (void)timerFireMethod:(NSTimer *)aTimer {
+- (void)updateClock:(NSTimer *)aTimer {
 	NSDate *date = [NSDate date];
     
 	calendar = [NSCalendar currentCalendar];
@@ -34,8 +37,14 @@
 	int hour_seconds = 3600000 * [timeComponents hour];
     
 	float gt = 65536 * ((hour_seconds + minute_seconds + seconds + ms) / (86400000.0));
+	
     
-    [geekTimeClock setText:[NSString stringWithFormat:@"0x%X", (int)round(gt)]];
+    //[geekTimeClock setText:[NSString stringWithFormat:@"0x%X", (int)round(gt)]];
+	NSString *currentTime = [NSString stringWithFormat:@"0x%X", (int)round(gt)];
+	NSString *contents = [NSString stringWithFormat:clockDisplay, currentTime,@"",@""];
+	
+	[geekTimeDisplay loadHTMLString:contents baseURL:nil];
+	[geekTimeDisplay setUserInteractionEnabled:NO];
 }
 
 - (void)flipsideViewControllerDidFinish:(FlipsideViewController *)controller {

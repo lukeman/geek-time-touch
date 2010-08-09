@@ -8,14 +8,16 @@
 
 @interface MainViewController : UIViewController <FlipsideViewControllerDelegate> {
     IBOutlet UILabel *titleLabel;
-    IBOutlet UILabel *geekTimeClock;
+	IBOutlet UIWebView *geekTimeDisplay;
     
+	NSString *clockDisplay;
     NSCalendar *calendar;
     NSTimeZone *UTC;
 }
 
 
 - (IBAction)showInfo:(id)sender;
+- (void)updateClock:(NSTimer *)aTimer;
 
 @end
 
