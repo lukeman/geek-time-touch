@@ -1,15 +1,164 @@
 // !$*UTF8*$!
 {
+	A3147ADB12124A4000C763C8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A315F96E120F2305003BC06D /* MainViewController.m */;
+		name = "MainViewController.m: 38";
+		rLen = 0;
+		rLoc = 1366;
+		rType = 0;
+		vrLen = 1324;
+		vrLoc = 661;
+	};
+	A3147AF312124C4500C763C8 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Blocks support disabled - compile with -fblocks or pick a deployment target that supports them";
+		fRef = A3147AF412124C4500C763C8 /* UIView.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 249;
+		rType = 1;
+	};
+	A3147AF412124C4500C763C8 /* UIView.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIView.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h;
+		sourceTree = "<absolute>";
+	};
+	A3147AF512124C4500C763C8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A3147AF612124C4500C763C8 /* UIView.h */;
+		name = "UIView.h: 250";
+		rLen = 0;
+		rLoc = 13066;
+		rType = 0;
+		vrLen = 1105;
+		vrLoc = 12733;
+	};
+	A3147AF612124C4500C763C8 /* UIView.h */ = {
+		isa = PBXFileReference;
+		name = UIView.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2210, 3406}}";
+			sepNavSelRange = "{13066, 0}";
+			sepNavVisRange = "{12065, 2490}";
+		};
+	};
+	A3147B0D121256EE00C763C8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A3147AF412124C4500C763C8 /* UIView.h */;
+		name = "UIView.h: 250";
+		rLen = 0;
+		rLoc = 13066;
+		rType = 0;
+		vrLen = 2490;
+		vrLoc = 12065;
+	};
+	A3147B0E121256EE00C763C8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A315F968120F2305003BC06D /* GeekTimeTouchAppDelegate.m */;
+		name = "GeekTimeTouchAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 586;
+		vrLoc = 57;
+	};
+	A3147B0F121256EE00C763C8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A315F96E120F2305003BC06D /* MainViewController.m */;
+		name = "MainViewController.m: 38";
+		rLen = 0;
+		rLoc = 1366;
+		rType = 0;
+		vrLen = 1326;
+		vrLoc = 661;
+	};
+	A3147B10121256EE00C763C8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A315F96E120F2305003BC06D /* MainViewController.m */;
+		name = "MainViewController.m: 47";
+		rLen = 0;
+		rLoc = 1765;
+		rType = 0;
+		vrLen = 1146;
+		vrLoc = 1213;
+	};
+	A3147B26121258AA00C763C8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A315F96E120F2305003BC06D /* MainViewController.m */;
+		name = "MainViewController.m: 45";
+		rLen = 0;
+		rLoc = 1544;
+		rType = 0;
+		vrLen = 1230;
+		vrLoc = 1158;
+	};
 	A315F94A120F2304003BC06D /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = A315F959120F2305003BC06D /* GeekTimeTouch */;
+		activeSDKPreference = iphonesimulator4.0;
 		activeTarget = A315F956120F2305003BC06D /* GeekTimeTouch */;
+		addToTargets = (
+			A315F956120F2305003BC06D /* GeekTimeTouch */,
+		);
+		breakpoints = (
+			A32864721212246A00C272CC /* MainViewController.m:48 */,
+		);
 		codeSenseManager = A315F94E120F2304003BC06D /* Code sense */;
 		executables = (
 			A315F959120F2305003BC06D /* GeekTimeTouch */,
 		);
 		ignoreBreakpointsInProjectsDict = {
 		};
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					829,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 303188527;
+			PBXWorkspaceStateSaveDate = 303188527;
+		};
+		perUserProjectItems = {
+			A3147ADB12124A4000C763C8 /* PBXTextBookmark */ = A3147ADB12124A4000C763C8 /* PBXTextBookmark */;
+			A3147AF312124C4500C763C8 /* XCBuildMessageTextBookmark */ = A3147AF312124C4500C763C8 /* XCBuildMessageTextBookmark */;
+			A3147AF512124C4500C763C8 /* PBXTextBookmark */ = A3147AF512124C4500C763C8 /* PBXTextBookmark */;
+			A3147B0D121256EE00C763C8 /* PBXTextBookmark */ = A3147B0D121256EE00C763C8 /* PBXTextBookmark */;
+			A3147B0E121256EE00C763C8 /* PBXTextBookmark */ = A3147B0E121256EE00C763C8 /* PBXTextBookmark */;
+			A3147B0F121256EE00C763C8 /* PBXTextBookmark */ = A3147B0F121256EE00C763C8 /* PBXTextBookmark */;
+			A3147B10121256EE00C763C8 /* PBXTextBookmark */ = A3147B10121256EE00C763C8 /* PBXTextBookmark */;
+			A3147B26121258AA00C763C8 /* PBXTextBookmark */ = A3147B26121258AA00C763C8 /* PBXTextBookmark */;
+			A3286434120FC8E200C272CC = A3286434120FC8E200C272CC /* PlistBookmark */;
+			A3286469121223D800C272CC = A3286469121223D800C272CC /* PBXTextBookmark */;
+			A32864851212260400C272CC = A32864851212260400C272CC /* PBXTextBookmark */;
+			A32864861212260400C272CC = A32864861212260400C272CC /* PBXTextBookmark */;
+			A32864AF1212344600C272CC = A32864AF1212344600C272CC /* PBXTextBookmark */;
+			A32864CD121236DA00C272CC = A32864CD121236DA00C272CC /* PBXTextBookmark */;
+			A32864F31212458900C272CC = A32864F31212458900C272CC /* PBXTextBookmark */;
+			A3B5865F12124A0600AED5FB = A3B5865F12124A0600AED5FB /* PBXTextBookmark */;
+		};
+		sourceControlManager = A3FB664E120F59CD00D2BEE9 /* Source Control */;
 		userBuildSettings = {
 		};
 	};
@@ -39,6 +188,7 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -46,8 +196,207 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = GeekTimeTouch;
+		savedGlobals = {
+		};
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eax = 1;
+			$ebp = 1;
+			$ebx = 1;
+			$ecx = 1;
+			$edi = 1;
+			$edx = 1;
+			$eflags = 1;
+			$eip = 1;
+			$es = 1;
+			$esi = 1;
+			$esp = 1;
+			$fs = 1;
+			$gs = 1;
+			$ss = 1;
+		};
+	};
+	A315F960120F2305003BC06D /* GeekTimeTouch-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{19, 215}, {750, 558}}";
+		};
+	};
+	A315F963120F2305003BC06D /* en */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 432}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 99}";
+		};
+	};
+	A315F968120F2305003BC06D /* GeekTimeTouchAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 520}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{57, 586}";
+		};
+	};
+	A315F96D120F2305003BC06D /* MainViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 432}}";
+			sepNavSelRange = "{298, 0}";
+			sepNavVisRange = "{0, 403}";
+		};
+	};
+	A315F96E120F2305003BC06D /* MainViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1335, 1183}}";
+			sepNavSelRange = "{1544, 0}";
+			sepNavVisRange = "{1158, 1230}";
+			sepNavWindowFrame = "{{19, 215}, {750, 558}}";
+		};
+	};
+	A315F973120F2305003BC06D /* FlipsideViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1174, 702}}";
+			sepNavSelRange = "{1064, 0}";
+			sepNavVisRange = "{443, 670}";
+		};
+	};
+	A315F989120F2A3C003BC06D /* about.html */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1540, 782}}";
+			sepNavSelRange = "{282, 0}";
+			sepNavVisRange = "{405, 1627}";
+		};
+	};
+	A3286434120FC8E200C272CC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A315F960120F2305003BC06D /* GeekTimeTouch-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleDevelopmentRegion,
+		);
+		name = "/Users/luke/Dropbox/projects/GeekTimeTouch/GeekTimeTouch-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	A3286469121223D800C272CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A315F96D120F2305003BC06D /* MainViewController.h */;
+		name = "MainViewController.h: 14";
+		rLen = 0;
+		rLoc = 298;
+		rType = 0;
+		vrLen = 403;
+		vrLoc = 0;
+	};
+	A32864721212246A00C272CC /* MainViewController.m:48 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A315F96E120F2305003BC06D /* MainViewController.m */;
+		functionName = "-updateClock:";
+		hitCount = 3;
+		ignoreCount = 0;
+		lineNumber = 48;
+		location = GeekTimeTouch;
+		modificationTime = 303178991.776793;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	A32864851212260400C272CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A3396FF8120F8F7000BE073E /* clockdisplay.html */;
+		name = "clockdisplay.html: 41";
+		rLen = 0;
+		rLoc = 902;
+		rType = 0;
+		vrLen = 764;
+		vrLoc = 251;
+	};
+	A32864861212260400C272CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A315F973120F2305003BC06D /* FlipsideViewController.m */;
+		name = "FlipsideViewController.m: 44";
+		rLen = 0;
+		rLoc = 1064;
+		rType = 0;
+		vrLen = 670;
+		vrLoc = 443;
+	};
+	A32864AF1212344600C272CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A32864B01212344600C272CC /* CFDate.h */;
+		name = "CFDate.h: 46";
+		rLen = 0;
+		rLoc = 1128;
+		rType = 0;
+		vrLen = 727;
+		vrLoc = 647;
+	};
+	A32864B01212344600C272CC /* CFDate.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CFDate.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFDate.h;
+		sourceTree = "<absolute>";
+	};
+	A32864C31212356700C272CC /* NSDate.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSDate.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDate.h;
+		sourceTree = "<absolute>";
+	};
+	A32864CD121236DA00C272CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A32864C31212356700C272CC /* NSDate.h */;
+		name = "NSDate.h: 52";
+		rLen = 0;
+		rLoc = 1443;
+		rType = 0;
+		vrLen = 1019;
+		vrLoc = 748;
+	};
+	A32864F31212458900C272CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A315F96E120F2305003BC06D /* MainViewController.m */;
+		name = "MainViewController.m: 40";
+		rLen = 0;
+		rLoc = 1368;
+		rType = 0;
+		vrLen = 1347;
+		vrLoc = 660;
+	};
+	A3396FF8120F8F7000BE073E /* clockdisplay.html */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 585}}";
+			sepNavSelRange = "{902, 0}";
+			sepNavVisRange = "{251, 764}";
+		};
+	};
+	A3B5865F12124A0600AED5FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A315F96E120F2305003BC06D /* MainViewController.m */;
+		name = "MainViewController.m: 38";
+		rLen = 0;
+		rLoc = 1366;
+		rType = 0;
+		vrLen = 1327;
+		vrLoc = 660;
+	};
+	A3FB664E120F59CD00D2BEE9 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
 	};
 }

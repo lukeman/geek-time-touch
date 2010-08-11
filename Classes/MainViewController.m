@@ -28,23 +28,27 @@
 	[calendar setTimeZone:[NSTimeZone timeZoneWithName:@"UTC"]];
 	
 	NSDate *date = [NSDate date];
-	NSDateComponents *timeComponents = [calendar components:( NSYearCalendarUnit | NSHourCalendarUnit | NSMinuteCalendarUnit | NSSecondCalendarUnit ) fromDate:date];
+	NSDateComponents *timeComponents = [calendar components:( NSWeekCalendarUnit | NSWeekdayCalendarUnit | NSHourCalendarUnit | NSMinuteCalendarUnit | NSSecondCalendarUnit ) fromDate:date];
 	
 	double all = [date timeIntervalSince1970];
 	double ms = 1000 * (all - (int)all);
 	int seconds = 1000 * [timeComponents second];
 	int minute_seconds = 60000 * [timeComponents minute];
 	int hour_seconds = 3600000 * [timeComponents hour];
+	int seconds_year = (604800 * ([timeComponents week] - 1)) + (86400 * ([timeComponents weekday] + 1));
 	
 	float gt = 65536 * ((hour_seconds + minute_seconds + seconds + ms) / (86400000.0));
+	float gd = seconds_year / (86400.0);
 	
 	NSString *currentTime = [NSString stringWithFormat:@"0x%04X", (int)round(gt)];
-	
+	NSString *currentDate = [NSString stringWithFormat:@"0x%03X", (int)round(gd)];
+	NSString *geekChar = [NSString stringWithFormat:@"&#x%x;", (int)round(gt)];
 	
 	NSString *contents = [NSString stringWithFormat:clockDisplay, 
 						  [currentTime substringToIndex:4],
-						  [currentTime substringFromIndex:4]
-						  ,@"",@""];
+						  [currentTime substringFromIndex:4],
+						  currentDate,
+						  geekChar];
 	
 	[geekTimeDisplay loadHTMLString:contents baseURL:nil];
 	[geekTimeDisplay setUserInteractionEnabled:NO];
