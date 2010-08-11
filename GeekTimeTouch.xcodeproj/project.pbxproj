@@ -18,7 +18,8 @@
 		A315F971120F2305003BC06D /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A315F970120F2305003BC06D /* MainView.xib */; };
 		A315F974120F2305003BC06D /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A315F973120F2305003BC06D /* FlipsideViewController.m */; };
 		A315F976120F2305003BC06D /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A315F975120F2305003BC06D /* FlipsideView.xib */; };
-		A315F98A120F2A3C003BC06D /* flipside.html in Resources */ = {isa = PBXBuildFile; fileRef = A315F989120F2A3C003BC06D /* flipside.html */; };
+		A315F98A120F2A3C003BC06D /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = A315F989120F2A3C003BC06D /* about.html */; };
+		A3396FF9120F8F7000BE073E /* clockdisplay.html in Resources */ = {isa = PBXBuildFile; fileRef = A3396FF8120F8F7000BE073E /* clockdisplay.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +40,8 @@
 		A315F972120F2305003BC06D /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
 		A315F973120F2305003BC06D /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
 		A315F975120F2305003BC06D /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
-		A315F989120F2A3C003BC06D /* flipside.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = flipside.html; path = StaticFiles/flipside.html; sourceTree = "<group>"; };
+		A315F989120F2A3C003BC06D /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = about.html; path = StaticFiles/about.html; sourceTree = "<group>"; };
+		A3396FF8120F8F7000BE073E /* clockdisplay.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = clockdisplay.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +94,7 @@
 		A315F951120F2305003BC06D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A315F989120F2A3C003BC06D /* flipside.html */,
+				A334D070120F896B003BAAC4 /* StaticPages */,
 				A315F960120F2305003BC06D /* GeekTimeTouch-Info.plist */,
 				A315F962120F2305003BC06D /* InfoPlist.strings */,
 				A315F96A120F2305003BC06D /* MainWindow.xib */,
@@ -118,6 +120,15 @@
 				A315F957120F2305003BC06D /* GeekTimeTouch.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A334D070120F896B003BAAC4 /* StaticPages */ = {
+			isa = PBXGroup;
+			children = (
+				A315F989120F2A3C003BC06D /* about.html */,
+				A3396FF8120F8F7000BE073E /* clockdisplay.html */,
+			);
+			name = StaticPages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +161,6 @@
 			};
 			buildConfigurationList = A315F94D120F2304003BC06D /* Build configuration list for PBXProject "GeekTimeTouch" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -174,7 +184,8 @@
 				A315F96C120F2305003BC06D /* MainWindow.xib in Resources */,
 				A315F971120F2305003BC06D /* MainView.xib in Resources */,
 				A315F976120F2305003BC06D /* FlipsideView.xib in Resources */,
-				A315F98A120F2A3C003BC06D /* flipside.html in Resources */,
+				A315F98A120F2A3C003BC06D /* about.html in Resources */,
+				A3396FF9120F8F7000BE073E /* clockdisplay.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,8 +233,10 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 2.0;
 				PREBINDING = NO;
 				SDKROOT = iphoneos4.0;
 			};
@@ -233,14 +246,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lucas Hatcher (P89Q62KUTH)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.2;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1536C8B7-867B-4E83-B98E-F5B665BA37D9";
+				SDKROOT = iphoneos4.0;
 			};
 			name = Release;
 		};

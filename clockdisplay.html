@@ -14,8 +14,9 @@
         color: #335;
       }
       #geektime {
-        font-family: monospace;
+        font-family: Courier;
         font-size: 48pt;
+		font-weight:bold;
       }
       #geekdate {
         font-family: monospace;
@@ -37,7 +38,7 @@
   </head>
   <body>
     <div>The <b>Geek Time</b> is currently</div>
-    <a href="" id="geektime">%@</a>
+    <a href="" id="geektime">%@<span class="minor">%@</span></a>
     <div>on day <span id="geekdate">%@</span></div>
     <div id="geekchar">%@</div>
   </body>
