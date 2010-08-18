@@ -20,6 +20,8 @@
 		A315F976120F2305003BC06D /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A315F975120F2305003BC06D /* FlipsideView.xib */; };
 		A315F98A120F2A3C003BC06D /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = A315F989120F2A3C003BC06D /* about.html */; };
 		A3396FF9120F8F7000BE073E /* clockdisplay.html in Resources */ = {isa = PBXBuildFile; fileRef = A3396FF8120F8F7000BE073E /* clockdisplay.html */; };
+		A384D3DD12138FED00ED106C /* default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A384D3DC12138FED00ED106C /* default@2x.png */; };
+		A384D3DF12138FFD00ED106C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A384D3DE12138FFD00ED106C /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		A315F975120F2305003BC06D /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
 		A315F989120F2A3C003BC06D /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = about.html; path = StaticFiles/about.html; sourceTree = "<group>"; };
 		A3396FF8120F8F7000BE073E /* clockdisplay.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = clockdisplay.html; sourceTree = "<group>"; };
+		A384D3DC12138FED00ED106C /* default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default@2x.png"; sourceTree = "<group>"; };
+		A384D3DE12138FFD00ED106C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		A315F951120F2305003BC06D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A384D3DE12138FFD00ED106C /* Default.png */,
+				A384D3DC12138FED00ED106C /* default@2x.png */,
 				A334D070120F896B003BAAC4 /* StaticPages */,
 				A315F960120F2305003BC06D /* GeekTimeTouch-Info.plist */,
 				A315F962120F2305003BC06D /* InfoPlist.strings */,
@@ -186,6 +192,8 @@
 				A315F976120F2305003BC06D /* FlipsideView.xib in Resources */,
 				A315F98A120F2A3C003BC06D /* about.html in Resources */,
 				A3396FF9120F8F7000BE073E /* clockdisplay.html in Resources */,
+				A384D3DD12138FED00ED106C /* default@2x.png in Resources */,
+				A384D3DF12138FFD00ED106C /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

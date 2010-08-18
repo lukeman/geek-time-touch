@@ -22,6 +22,13 @@
     [super viewDidLoad];
 }
 
+- (void)webViewDidFinishLoad:(UIWebView *)webView{
+	// Webview is hidden on first load to avoid a flash of unstyled content
+	if ([webView isHidden]) {
+		[webView setHidden:NO];
+	}
+}
+
 - (void)updateClock:(NSTimer *)aTimer {
 	
 	calendar = [NSCalendar currentCalendar];
@@ -52,6 +59,7 @@
 	
 	[geekTimeDisplay loadHTMLString:contents baseURL:nil];
 	[geekTimeDisplay setUserInteractionEnabled:NO];
+	
 }
 
 - (void)flipsideViewControllerDidFinish:(FlipsideViewController *)controller {
