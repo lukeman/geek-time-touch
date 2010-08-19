@@ -20,9 +20,11 @@
 		A315F976120F2305003BC06D /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A315F975120F2305003BC06D /* FlipsideView.xib */; };
 		A315F98A120F2A3C003BC06D /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = A315F989120F2A3C003BC06D /* about.html */; };
 		A3396FF9120F8F7000BE073E /* clockdisplay.html in Resources */ = {isa = PBXBuildFile; fileRef = A3396FF8120F8F7000BE073E /* clockdisplay.html */; };
-		A384D3DD12138FED00ED106C /* default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A384D3DC12138FED00ED106C /* default@2x.png */; };
-		A384D3DF12138FFD00ED106C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A384D3DE12138FFD00ED106C /* Default.png */; };
-		C4E8E5E7121B839300E99027 /* geektime114.png in Resources */ = {isa = PBXBuildFile; fileRef = C4E8E5E6121B839300E99027 /* geektime114.png */; };
+		A384D3DD12138FED00ED106C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A384D3DC12138FED00ED106C /* Default@2x.png */; };
+		C414E64F121CC9D800D114B8 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = C414E64C121CC9D800D114B8 /* Icon-72.png */; };
+		C414E650121CC9D800D114B8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C414E64D121CC9D800D114B8 /* Icon.png */; };
+		C414E651121CC9D800D114B8 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C414E64E121CC9D800D114B8 /* Icon@2x.png */; };
+		C4FE4C84121CE1EB00CF20E3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C4FE4C83121CE1EB00CF20E3 /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,9 +47,11 @@
 		A315F975120F2305003BC06D /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
 		A315F989120F2A3C003BC06D /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = about.html; path = StaticFiles/about.html; sourceTree = "<group>"; };
 		A3396FF8120F8F7000BE073E /* clockdisplay.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = clockdisplay.html; sourceTree = "<group>"; };
-		A384D3DC12138FED00ED106C /* default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default@2x.png"; sourceTree = "<group>"; };
-		A384D3DE12138FFD00ED106C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		C4E8E5E6121B839300E99027 /* geektime114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = geektime114.png; sourceTree = "<group>"; };
+		A384D3DC12138FED00ED106C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C414E64C121CC9D800D114B8 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		C414E64D121CC9D800D114B8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C414E64E121CC9D800D114B8 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		C4FE4C83121CE1EB00CF20E3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,15 +104,16 @@
 		A315F951120F2305003BC06D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C4E8E5E6121B839300E99027 /* geektime114.png */,
-				A384D3DE12138FFD00ED106C /* Default.png */,
-				A384D3DC12138FED00ED106C /* default@2x.png */,
+				A384D3DC12138FED00ED106C /* Default@2x.png */,
+				C4FE4C5E121CDD2A00CF20E3 /* Default Screens */,
+				C414E649121CC9B300D114B8 /* Icons */,
 				A334D070120F896B003BAAC4 /* StaticPages */,
 				A315F960120F2305003BC06D /* GeekTimeTouch-Info.plist */,
 				A315F962120F2305003BC06D /* InfoPlist.strings */,
 				A315F96A120F2305003BC06D /* MainWindow.xib */,
 				A315F970120F2305003BC06D /* MainView.xib */,
 				A315F975120F2305003BC06D /* FlipsideView.xib */,
+				C4FE4C83121CE1EB00CF20E3 /* Default.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -140,6 +145,23 @@
 			name = StaticPages;
 			sourceTree = "<group>";
 		};
+		C414E649121CC9B300D114B8 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				C414E64C121CC9D800D114B8 /* Icon-72.png */,
+				C414E64D121CC9D800D114B8 /* Icon.png */,
+				C414E64E121CC9D800D114B8 /* Icon@2x.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		C4FE4C5E121CDD2A00CF20E3 /* Default Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Default Screens";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -166,7 +188,7 @@
 		A315F94A120F2304003BC06D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				ORGANIZATIONNAME = "Centre College";
+				ORGANIZATIONNAME = "Monocle Studios";
 			};
 			buildConfigurationList = A315F94D120F2304003BC06D /* Build configuration list for PBXProject "GeekTimeTouch" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -195,9 +217,11 @@
 				A315F976120F2305003BC06D /* FlipsideView.xib in Resources */,
 				A315F98A120F2A3C003BC06D /* about.html in Resources */,
 				A3396FF9120F8F7000BE073E /* clockdisplay.html in Resources */,
-				A384D3DD12138FED00ED106C /* default@2x.png in Resources */,
-				A384D3DF12138FFD00ED106C /* Default.png in Resources */,
-				C4E8E5E7121B839300E99027 /* geektime114.png in Resources */,
+				A384D3DD12138FED00ED106C /* Default@2x.png in Resources */,
+				C414E64F121CC9D800D114B8 /* Icon-72.png in Resources */,
+				C414E650121CC9D800D114B8 /* Icon.png in Resources */,
+				C414E651121CC9D800D114B8 /* Icon@2x.png in Resources */,
+				C4FE4C84121CE1EB00CF20E3 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,15 +265,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lucas Hatcher (P89Q62KUTH)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = 4.2;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
 				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C66AB01D-DA8D-4A56-8D77-1B7638751DD1";
 				SDKROOT = iphoneos4.0;
 			};
 			name = Debug;
@@ -299,6 +324,37 @@
 			};
 			name = Release;
 		};
+		C414E667121CCD3800D114B8 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Monocle Studios LLC";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "93EF7D30-DDBC-46FF-B49E-4FCDBA6B65A1";
+				SDKROOT = iphoneos4.0;
+			};
+			name = AdHoc;
+		};
+		C414E668121CCD3800D114B8 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GeekTimeTouch_Prefix.pch;
+				INFOPLIST_FILE = "GeekTimeTouch-Info.plist";
+				PRODUCT_NAME = GeekTimeTouch;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = AdHoc;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -307,6 +363,7 @@
 			buildConfigurations = (
 				A315F977120F2305003BC06D /* Debug */,
 				A315F978120F2305003BC06D /* Release */,
+				C414E667121CCD3800D114B8 /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -316,6 +373,7 @@
 			buildConfigurations = (
 				A315F97A120F2305003BC06D /* Debug */,
 				A315F97B120F2305003BC06D /* Release */,
+				C414E668121CCD3800D114B8 /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
