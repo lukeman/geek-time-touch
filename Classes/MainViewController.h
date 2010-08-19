@@ -15,10 +15,10 @@
     NSTimeZone *UTC;
 }
 
-
 - (IBAction)showInfo:(id)sender;
-- (void)updateClock:(NSTimer *)aTimer;
 - (void)webViewDidFinishLoad:(UIWebView *)webView;
+- (void)showClockDisplay:(UIWebView *)webView;
+- (void)updateClock:(NSTimer *)aTimer;
 
 @end
 

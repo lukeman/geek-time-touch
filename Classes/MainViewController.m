@@ -22,11 +22,15 @@
     [super viewDidLoad];
 }
 
-- (void)webViewDidFinishLoad:(UIWebView *)webView{
+- (void)webViewDidFinishLoad:(UIWebView *)webView {
 	// Webview is hidden on first load to avoid a flash of unstyled content
 	if ([webView isHidden]) {
-		[webView setHidden:NO];
+		[self performSelector:@selector(showClockDisplay:) withObject:webView afterDelay:0.2];
 	}
+}
+
+- (void)showClockDisplay:(UIWebView *)webView {
+	[webView setHidden:NO];
 }
 
 - (void)updateClock:(NSTimer *)aTimer {
